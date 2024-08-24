@@ -130,7 +130,7 @@ body {
 .top-bar a {
     text-decoration: none;
     color: var(--main-color);
-    font-weight: 700;
+    font-weight: 500;
 }
 
 /* Estilos para el Navbar */
@@ -228,8 +228,78 @@ body {
 
 .hero-img{
     width: 500px;
+    animation: backInRight; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
 }
 
+/* Estilos para el footer */
+.footer{
+  border-top: rgba(255, 255, 255, 0.141) 2px solid;
+}
+
+.footer li{
+  font-size: 14px;
+}
+
+.footer p{
+  font-size: 14px;
+}
+
+.footer button{
+  font-size: 14px;
+}
+
+.fa-brands {
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+.circle-background {
+  display: inline-block;
+  background-color: var(--tertiary-color); /* Cambia el color de fondo del círculo según tus necesidades */
+  padding: 10px; /* Ajusta el espaciado interno del círculo según tus necesidades */
+  border-radius: 50%; /* Hace que el contenedor tenga bordes redondeados para formar un círculo */
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.circle-background i {
+  margin: 0; /* Elimina el margen predeterminado del icono para que se ajuste completamente al círculo */
+}
+
+.circle-background:hover {
+  background-color: var(--secondary-color); /* Cambia el color de fondo del círculo según tus necesidades */
+}
+
+
+.detail {
+  border: #717171 1px solid;
+  border-radius: 5px;
+  width: 300px;
+  padding: 5px 0px 5px 0px;
+  margin: auto;
+  background-color: #292929;
+}
+
+.text-body-secondary{
+  color: rgb(135, 135, 135) !important;
+}
+
+.dropdown-menu-dark {
+  --bs-dropdown-color: #dee2e6;
+  --bs-dropdown-bg: #343a40;
+  --bs-dropdown-border-color: var(--bs-border-color-translucent);
+  --bs-dropdown-box-shadow: ;
+  --bs-dropdown-link-color: #dee2e6;
+  --bs-dropdown-link-hover-color: #fff;
+  --bs-dropdown-divider-bg: var(--bs-border-color-translucent);
+  --bs-dropdown-link-hover-bg: rgba(255, 255, 255, 0.15);
+  --bs-dropdown-link-active-color: #fff;
+  --bs-dropdown-link-active-bg: #0d6efd;
+  --bs-dropdown-link-disabled-color: #adb5bd;
+  --bs-dropdown-header-color: #adb5bd;
+}
 
 
 /*----------------INICIO DE QUERYS*/
@@ -250,10 +320,6 @@ body {
     margin: 20px 0px;
 }
 
-.hero-section h1 span {
-    color: var(--secondary-color);
-}
-
 .hero-section p {
     opacity: 0.8;
     max-width: 600px;
@@ -261,11 +327,7 @@ body {
 }
 
 .app-links {
-    margin: 30px 0px;
-}
-
-.app-links a {
-    margin: 0px 10px 0px 0px;
+    margin: 0px 0px;
 }
 
 .hero-img{

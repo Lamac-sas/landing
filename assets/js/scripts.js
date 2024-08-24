@@ -22,5 +22,6 @@ document.addEventListener("DOMContentLoaded", function () {
     loadContent("navbar", "assets/partials/navbar.html");
     loadContent("footer", "assets/partials/footer.html");
     loadContent("herosection", "assets/partials/hero-section.html");
+    loadContent("footer", "assets/partials/footer.html");
     // Añade más llamadas según sea necesario
 });
