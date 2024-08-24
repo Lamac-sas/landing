@@ -1,0 +1,68 @@
+:root {
+    --main-color: #272940;
+    --secondary-color: #01FE87;
+    --tertiary-color: #00524F;
+    --basic-color: #FFFFFF;
+}
+
+body {
+    background: var(--main-color);
+}
+
+
+/* Estilos para top-bar de anuncios */
+.top-bar {
+    background: var(--secondary-color);
+    height: 40px;
+    margin: 0px;
+}
+
+.top-bar a {
+    text-decoration: none;
+    color: var(--main-color);
+    font-weight: 700;
+}
+
+/* Estilos para el Navbar */
+.navbar {
+    background-color:var(--main-color) !important;
+    border-bottom: rgba(255, 255, 255, 0.141) 2px solid;
+}
+
+.nav-link {
+    color: var(--basic-color);
+}
+
+.nav-link:hover {
+    color:var(--secondary-color);
+}
+
+.nav-item {
+    margin: 0px 10px;
+    font-weight: 300;
+}
+
+.btn-outline-secondary {
+    --bs-btn-font-weight: 700;
+    --bs-btn-color:var(--tertiary-color);
+    --bs-btn-border-color:var(--secondary-color);
+    --bs-btn-bg:var(--secondary-color);
+    --bs-btn-hover-bg: var(--tertiary-color);
+    --bs-btn-hover-color:var(--basic-color);
+    --bs-btn-hover-border-color: var(--tertiary-color);
+    padding:10px 20px;
+    border-radius: 50px;
+}
+
+.navbar-toggler{
+    --bs-navbar-toggler-border-color:var(--secondary-color);
+}
+
+.navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 255, 137, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler:focus{
+    color: rgba(0, 255, 137, 0.5);
+}
