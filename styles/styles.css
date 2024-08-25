@@ -310,6 +310,52 @@ body {
   padding-left: 10px;
 }
 
+/* Estilos para Normativity section*/
+.normativity-section {
+  margin-top: 50px;
+}
+
+.normativity-container {
+  background-color: var(--Cuartiary-color);
+  background-image: url(../img/normativity_container_background.webp);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  height: 400px;
+}
+
+.normativity-image-container {
+  position: relative;
+  height: 100%;
+}
+
+.normativity-image-container img {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
+
+.normativity-container p {
+  color: var(--basic-color);
+  padding-left: 30px;
+}
+
+.normativity-item {
+  margin-top: 20px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.normativity-item img {
+  width: 40px;
+}
+
+.normativity-item p {
+  color: var(--basic-color);
+  margin: 0px;
+}
 
 
 
@@ -389,9 +435,10 @@ body {
   padding: 20px;
 }
 
-.proposal-img {
-  margin-top: -81px;
+.normativity-section {
+  padding: 20px;
 }
+
 
 .proposal-container p {
   font-size: 18px;
@@ -478,6 +525,12 @@ body {
 .proposal-container h1 {
   font-size: 30px;
   font-weight: 700;
+}
+
+/* Estilos para normativity section*/
+
+.normativity-container {
+  height: 500px;
 }
 
 

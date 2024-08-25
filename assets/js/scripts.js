@@ -20,9 +20,9 @@ function loadContent(containerId, url) {
 // Usa la función dentro del event listener
 document.addEventListener("DOMContentLoaded", function () {
     loadContent("navbar", "assets/partials/navbar.html");
-    loadContent("footer", "assets/partials/footer.html");
     loadContent("herosection", "assets/partials/hero-section.html");
-    loadContent("footer", "assets/partials/footer.html");
     loadContent("proposal", "assets/partials/proposal.html");
+    loadContent("normativity", "assets/partials/normativity.html");
+    loadContent("footer", "assets/partials/footer.html");
     // Añade más llamadas según sea necesario
 });
