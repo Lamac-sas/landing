@@ -2,6 +2,7 @@
     --main-color: #272940;
     --secondary-color: #01FE87;
     --tertiary-color: #00524F;
+    --Cuartiary-color: #3739535b;
     --basic-color: #FFFFFF;
 }
 
@@ -232,6 +233,54 @@ body {
     animation-duration: 1s; /* don't forget to set a duration! */
 }
 
+/* Estilos para proposal section*/
+.proposal-container {
+  background-color: var(--Cuartiary-color);
+  background-image: url(../img/proposal_container_background.webp);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  height: 200px;
+}
+
+.image-container img {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
+
+.proposal-container h1 {
+  color: var(--secondary-color);
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.proposal-container p {
+  color: var(--basic-color);
+  font-size: 20px;
+  max-width: 600px;
+
+}
+
+.image-container {
+  position: relative;
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Estilos para el footer */
 .footer{
   border-top: rgba(255, 255, 255, 0.141) 2px solid;
@@ -286,23 +335,41 @@ body {
   color: rgb(135, 135, 135) !important;
 }
 
-.dropdown-menu-dark {
-  --bs-dropdown-color: #dee2e6;
-  --bs-dropdown-bg: #343a40;
-  --bs-dropdown-border-color: var(--bs-border-color-translucent);
-  --bs-dropdown-box-shadow: ;
-  --bs-dropdown-link-color: #dee2e6;
-  --bs-dropdown-link-hover-color: #fff;
-  --bs-dropdown-divider-bg: var(--bs-border-color-translucent);
-  --bs-dropdown-link-hover-bg: rgba(255, 255, 255, 0.15);
-  --bs-dropdown-link-active-color: #fff;
-  --bs-dropdown-link-active-bg: #0d6efd;
-  --bs-dropdown-link-disabled-color: #adb5bd;
-  --bs-dropdown-header-color: #adb5bd;
-}
+
+
+
 
 
 /*----------------INICIO DE QUERYS*/
+
+@media (max-width: 1200px) {
+/* Estilos para proposal section*/
+.proposal-section {
+  padding: 20px;
+}
+
+.proposal-img {
+  margin-top: -81px;
+}
+
+.proposal-container p {
+  font-size: 18px;
+}
+
+.proposal-container h1 {
+  font-size: 60px;
+  font-weight: 600;
+}
+}
+
+@media (max-width: 992px) {
+
+.proposal-container p {
+  font-size: 16px;
+}
+
+}
+
 @media (max-width: 768px) {
     
 /* Estilos para Hero section*/
@@ -333,5 +400,27 @@ body {
 .hero-img{
     width: 500px;
 }
+
+}
+
+@media (max-width: 576px) {
+/* Estilos para proposal section*/
+.image-container img {
+  width: 100%;
+}
+
+.proposal-container {
+  height: 250px;
+}
+
+.proposal-container p {
+  font-size: 14px;
+}
+
+.proposal-container h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
 
 }
