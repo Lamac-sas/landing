@@ -234,6 +234,15 @@ body {
 }
 
 /* Estilos para proposal section*/
+.sub-title {
+  opacity: 0.5;
+  color: var(--secondary-color);
+  margin-bottom: 10px;
+  font-weight: 700;
+  letter-spacing:2px;
+  
+}
+
 .proposal-container {
   background-color: var(--Cuartiary-color);
   background-image: url(../img/proposal_container_background.webp);
@@ -254,7 +263,7 @@ body {
 .proposal-container h1 {
   color: var(--secondary-color);
   font-size: 80px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .proposal-container p {
@@ -267,6 +276,38 @@ body {
 .image-container {
   position: relative;
   height: 100%;
+}
+
+.proposal-item {
+  margin-top: 20px;
+  background-color: var(--Cuartiary-color);
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.proposal-item img {
+  width: 40px;
+}
+
+.proposal-item p {
+  color: var(--basic-color);
+  margin: 0px;
+}
+
+.containter-item-1 {
+  padding-right: 10px;
+}
+
+.containter-item-2 {
+  padding-left: 10px;
+}
+
+.containter-item-3 {
+  padding-right: 10px;
+}
+
+.containter-item-4 {
+  padding-left: 10px;
 }
 
 
@@ -368,6 +409,22 @@ body {
   font-size: 16px;
 }
 
+.containter-item-1 {
+  padding: 0px;
+}
+
+.containter-item-2 {
+  padding: 0px;
+}
+
+.containter-item-3 {
+  padding: 0px;
+}
+
+.containter-item-4 {
+  padding: 0px;
+}
+
 }
 
 @media (max-width: 768px) {
@@ -410,16 +467,17 @@ body {
 }
 
 .proposal-container {
-  height: 250px;
+  padding: 5px;
+  height: 170px;
 }
 
 .proposal-container p {
-  font-size: 16px;
+  font-size: 13px;
 }
 
 .proposal-container h1 {
-  font-size: 40px;
-  font-weight: 800;
+  font-size: 30px;
+  font-weight: 700;
 }
 
 
